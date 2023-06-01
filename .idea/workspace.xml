@@ -7,8 +7,6 @@
     <list default="true" id="38416eb8-1ee9-452f-bda7-010dab49281c" name="Changes" comment="Added some code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dz_1/BarOfChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BarOfChocolate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dz_1/BottleOfMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BottleOfMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dz_1/BottleOfWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BottleOfWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dz_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685624466381</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added some code">
+      <created>1685631222020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685631222020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
