@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38416eb8-1ee9-452f-bda7-010dab49281c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_DZ_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/BarOfChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/BottleOfMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/BottleOfWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz_1/VendingMachine.java" afterDir="false" />
+    <list default="true" id="38416eb8-1ee9-452f-bda7-010dab49281c" name="Changes" comment="Added some code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dz_1/BarOfChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BarOfChocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dz_1/BottleOfMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BottleOfMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dz_1/BottleOfWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/BottleOfWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dz_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +57,18 @@
       <option name="presentableId" value="Default" />
       <updated>1685623263710</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added some code">
+      <created>1685624466381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685624466381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some code" />
   </component>
 </project>
