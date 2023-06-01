@@ -52,6 +52,7 @@ public class BarOfChocolate extends Product{
         }
         else this.calorieContent = calorieContent;
     }
+
     protected void checkColor (String colorChocolate){
         if (colorChocolate.equals("Белый") || colorChocolate.equals("Черный") || colorChocolate.equals("Молочный")){
             this.colorChocolate = colorChocolate;

@@ -36,15 +36,27 @@ public class Main {
         products.add(barOfChocolate5);
 
         printProducts(products);
-        System.out.println();
+        System.out.println("-------------------");
 
         VendingMachine vendingMachine = new VendingMachine(products);
 
-        BarOfChocolate barOfChocolateResult1 = vendingMachine.getBarOfChocolate(100);
+        BarOfChocolate barOfChocolateResult1 = vendingMachine.getBarOfChocolateMass(100);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult1);
+        System.out.println();
 
-        BarOfChocolate barOfChocolateResult2 = vendingMachine.getBarOfChocolate(90);
+        BarOfChocolate barOfChocolateResult2 = vendingMachine.getBarOfChocolateMass(90);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult2);
+        System.out.println();
+
+        BarOfChocolate barOfChocolateResult3 = vendingMachine.getBarOfChocolateCalorie(240);
+        BarOfChocolate.barOfChocolateReturne(barOfChocolateResult3);
+        System.out.println();
+
+        BarOfChocolate barOfChocolateResult4 = vendingMachine.getBarOfChocolateName("Аленка");
+        BarOfChocolate.barOfChocolateReturne(barOfChocolateResult4);
+        System.out.println();
+
+
 
     }
 

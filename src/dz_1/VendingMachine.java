@@ -22,10 +22,32 @@ public class VendingMachine {
         return null;
     }
 
-    public BarOfChocolate getBarOfChocolate(int mass){
+    public BarOfChocolate getBarOfChocolateMass(int mass){
         for (Product product : products){
             if (product instanceof BarOfChocolate){
                 if (((BarOfChocolate)product).getMassChocolate()  == mass){
+                    return (BarOfChocolate)product;
+                }
+            }
+        }
+        return null;
+    }
+
+    public BarOfChocolate getBarOfChocolateCalorie(double calorieContent){
+        for (Product product : products){
+            if (product instanceof BarOfChocolate){
+                if (((BarOfChocolate)product).getCalorieContent()  == calorieContent){
+                    return (BarOfChocolate)product;
+                }
+            }
+        }
+        return null;
+    }
+
+    public BarOfChocolate getBarOfChocolateName(String name){
+        for (Product product : products){
+            if (product instanceof BarOfChocolate){
+                if (((BarOfChocolate)product).name.equals("Аленка")){
                     return (BarOfChocolate)product;
                 }
             }
