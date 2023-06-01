@@ -62,6 +62,16 @@ public class BarOfChocolate extends Product{
         else this.colorChocolate = "Черный";
     }
 
+    public static void barOfChocolateReturne (BarOfChocolate barOfChocolateResult){
+        if (barOfChocolateResult != null){
+            System.out.println("Вы купили: ");
+            System.out.println(barOfChocolateResult.displayInfo());
+        }
+        else {
+            System.out.println("Такой шоколадки нет в автомате.");
+        }
+    }
+
     @Override
     public String displayInfo() {
         return String.format("Плитка шоколада: Производитель - %s; Название - %s; Цена - %f; Калории - %f; Цвет шоколадки - %s; Масса шоколадки (гр) - %d", brand, name, price, calorieContent, colorChocolate, massChocolate);

@@ -22,4 +22,16 @@ public class VendingMachine {
         return null;
     }
 
+    public BarOfChocolate getBarOfChocolate(int mass){
+        for (Product product : products){
+            if (product instanceof BarOfChocolate){
+                if (((BarOfChocolate)product).getMassChocolate()  == mass){
+                    return (BarOfChocolate)product;
+                }
+            }
+        }
+        return null;
+    }
+
+
 }

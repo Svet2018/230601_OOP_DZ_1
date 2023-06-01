@@ -35,20 +35,25 @@ public class Main {
         products.add(barOfChocolate4);
         products.add(barOfChocolate5);
 
-        for (int i = 0; i < products.size(); i++){
-            System.out.println(products.get(i).displayInfo());
-        }
-
+        printProducts(products);
         System.out.println();
 
         VendingMachine vendingMachine = new VendingMachine(products);
-        BottleOfWater bottleOfWaterResult = vendingMachine.getBottleOfWater(2);
-        if (bottleOfWaterResult != null){
-            System.out.println("Вы купили: ");
-            System.out.println(bottleOfWaterResult.displayInfo());
-        }
-        else {
-            System.out.println("Такой бутылки с водой нет в автомате.");
+
+        BarOfChocolate barOfChocolateResult1 = vendingMachine.getBarOfChocolate(100);
+        BarOfChocolate.barOfChocolateReturne(barOfChocolateResult1);
+
+        BarOfChocolate barOfChocolateResult2 = vendingMachine.getBarOfChocolate(90);
+        BarOfChocolate.barOfChocolateReturne(barOfChocolateResult2);
+
+    }
+
+
+
+    static void printProducts (List<Product> list){
+        List <Product> listProduct = list;
+        for (int i = 0; i < listProduct.size(); i++){
+            System.out.println(listProduct.get(i).displayInfo());
         }
     }
 }
