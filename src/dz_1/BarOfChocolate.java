@@ -1,5 +1,8 @@
 package dz_1;
 
+import java.util.List;
+import java.util.Scanner;
+
 public class BarOfChocolate extends Product{
 
     private double calorieContent; //Содержание каллорий
@@ -77,6 +80,7 @@ public class BarOfChocolate extends Product{
     public String displayInfo() {
         return String.format("Плитка шоколада: Производитель - %s; Название - %s; Цена - %f; Калории - %f; Цвет шоколадки - %s; Масса шоколадки (гр) - %d", brand, name, price, calorieContent, colorChocolate, massChocolate);
     }
+
 
 
 

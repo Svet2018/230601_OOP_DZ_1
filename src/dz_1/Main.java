@@ -37,36 +37,60 @@ public class Main {
 
         printProducts(products);
         System.out.println("-------------------");
+        System.out.println();
 
         VendingMachine vendingMachine = new VendingMachine(products);
 
+        System.out.println("1 - Ответ покупателю ");
         BarOfChocolate barOfChocolateResult1 = vendingMachine.getBarOfChocolateMass(100);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult1);
         System.out.println();
 
+        System.out.println("2 - Ответ покупателю ");
         BarOfChocolate barOfChocolateResult2 = vendingMachine.getBarOfChocolateMass(90);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult2);
         System.out.println();
 
-        BarOfChocolate barOfChocolateResult3 = vendingMachine.getBarOfChocolateCalorie(240);
+        System.out.println("3 - Ответ покупателю ");
+        BarOfChocolate barOfChocolateResult3 = vendingMachine.getBarOfChocolateCalorie(220);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult3);
         System.out.println();
 
-        BarOfChocolate barOfChocolateResult4 = vendingMachine.getBarOfChocolateName("Аленка");
+        System.out.println("4 - Ответ покупателю ");
+        BarOfChocolate barOfChocolateResult4 = vendingMachine.getBarOfChocolateCalorie(240);
         BarOfChocolate.barOfChocolateReturne(barOfChocolateResult4);
         System.out.println();
 
-
+        System.out.println("5 - Ответ покупателю ");
+        BarOfChocolate barOfChocolateResult5 = vendingMachine.getBarOfChocolateName("Аленка");
+        BarOfChocolate.barOfChocolateReturne(barOfChocolateResult5);
+        System.out.println();
 
     }
-
-
 
     static void printProducts (List<Product> list){
         List <Product> listProduct = list;
         for (int i = 0; i < listProduct.size(); i++){
             System.out.println(listProduct.get(i).displayInfo());
         }
+    }
+
+    static Object returneName (List<Product> list, BarOfChocolate barOfChocolate){
+        List<Product> newList = list;
+        BarOfChocolate newbarOfChocolate = barOfChocolate;
+        for (Product product : newList){
+            if (product instanceof BarOfChocolate) {
+                if (product.name.equals(newbarOfChocolate.name)) {
+                    System.out.println("++++++");
+                    System.out.println(product.displayInfo());
+
+                }
+                else System.out.println("Такого названия шоколадки нет");
+            }
+            return null;
+        }
+
+        return null;
     }
 }
 

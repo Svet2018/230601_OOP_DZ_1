@@ -45,10 +45,10 @@ public class VendingMachine {
     }
 
     public BarOfChocolate getBarOfChocolateName(String name){
-        for (Product product : products){
-            if (product instanceof BarOfChocolate){
-                if (((BarOfChocolate)product).name.equals("Аленка")){
-                    return (BarOfChocolate)product;
+        for (Product product : products) {
+            if (product instanceof BarOfChocolate) {
+                if (product.name.equals("Аленка")) {
+                    return (BarOfChocolate) product;
                 }
             }
         }
